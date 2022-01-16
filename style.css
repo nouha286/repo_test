@@ -1,7 +1,9 @@
 .card
 {
-    width:35%; 
+    width:33%; 
      border-radius:20px;
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+     margin-top: 9%;
 }
 h1
 {
@@ -9,4 +11,21 @@ h1
 }
 p{
     color: gray;
+}
+.card p
+{
+    font-size: 1.1vw;
+}
+h5
+{
+    font-size: 1.8vw;
+}
+h1
+{
+    font-size: 3vw;
+}
+body
+{
+    background: linear-gradient(to right,#0dcaf0,#dee4b0) !important;
+   
 }

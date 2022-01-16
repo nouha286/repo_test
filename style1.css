@@ -1,0 +1,41 @@
+.sidebar
+{
+    width: 20%;
+    border: 4px solid red;
+    background:  #FAFFC1;
+    height: 960px;
+}
+.rounded-circle
+{
+    width:70%; 
+}
+.card
+{
+    background: #FAFFC1;
+}
+h4
+{
+    font-style: normal;
+    font-weight: bold;
+}
+li
+{
+    background-color:  #FAFFC1 ;
+}
+.sidebar footer 
+{
+    bottom: 0;
+    position:absolute;
+}
+body
+{
+    display: flex;
+    overflow: auto;
+    font-style: normal;
+   
+}
+a
+{
+   text-decoration: none;
+   color: black ;
+}
