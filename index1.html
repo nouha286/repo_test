@@ -8,54 +8,95 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
-    <title>Document</title>
+    <title>E-classe</title>
 </head>
-<body>
-    <div class="sidebar" >
-         <header>
-             <h1>E-classe</h1>
-       
-            <div class="card mx-auto d-block mt-5" style="width: 70%;">
-                <img src="5dacd6c5391495cfe8fc3abf313e15ce.jpg" class="rounded-circle mx-auto d-block "  alt="Cinque Terre">
-                <div class="card-body">
-                    <h4 class="card-text text-center text-dark" >Admin name</h4>
-                    <h5 class="card-text text-center " style="color: #00C1FE; ">Admin</h5>  
+<body >
+    <div class="row" style="border: 3px solid red;">
+        <!--sidebar-->
+        <div class="sidebar col-2" style="border: 3px solid yellow;" >
+            <div class="my-5 d-none d-xxl-block ">
+                <h1 class="border-start ms-3 border-4 border-info">E-classe</h1>
+        
+                <div class="card mx-auto d-block mt-5" style="width: 70%;">
+                    <img src="5dacd6c5391495cfe8fc3abf313e15ce.jpg" class="rounded-circle mx-auto d-block "  alt="Cinque Terre">
+                    <div class="card-body">
+                        <h4 class="card-text text-center text-dark" >Admin name</h4>
+                        <h5 class="card-text text-center " style="color: #00C1FE; ">Admin</h5>  
+                    </div>
                 </div>
             </div>
-         </header>
-         
-         <ul class="list-group mx-auto d-block" style= "width: 70%;">
-            <li class="list-group-item text-center active mx-auto d-block text-dark" style="border: none; background-color:#00C1FE;;"><a href="">Home</a></li>
-            <li class="list-group-item text-center mx-auto d-block text-dark" style="background-color:  #FAFFC1; border: none;"><i class="far fa-bookmark"></i><a href=""></a>Course</li>
-            <li class="list-group-item text-center mx-auto d-block text-dark" style="background-color:  #FAFFC1; border: none;"><i class="fas fa-graduation-cap"></i><a href="">Students</a></li>
-            <li class="list-group-item text-center mx-auto d-block text-dark" style="background-color:  #FAFFC1; border: none;"><i class="far fa-usd-square"></i><a href="">Payment</a></li>
-            <li class="list-group-item text-center mx-auto d-block text-dark" style="background-color:  #FAFFC1; border: none;"><i class="fal fa-file-chart-line"></i><a href="">Report</a></li>
-            <li class="list-group-item text-center mx-auto d-block text-dark" style="background-color:  #FAFFC1; border: none;"><i class="fal fa-sliders-v-square"></i><a href="">Settings</a></li>
-         </ul>
-         
-    </div>
-    <div style="width: 80%;">
-        <div class="row">
-            <div class="col-xxl-3 col-xl-4 col-lg-6" style="border: 1px solid green;">students</div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6"style="border: 1px solid green;">courses</div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6"style="border: 1px solid green;">payments</div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6"style="border: 1px solid green;">Users</div>
+            <div>
+                <ul class="list-group mx-auto d-block mt-5" style= "width: 70%;">
+                    
+                    <li class="list-group-item text-center active mx-auto d-block text-dark py-3 rounded list-hover" style="border: none; font-weight: 500; background-color:#00C1FE;;"><a href=""><span class="pe-2"><i class="fas fa-home"></i></span><span class="d-none d-sm-block">Home</span> </a></li>
+                    <li class="list-group-item text-center mx-auto d-block text-dark py-3" style="background-color:  #FAFFC1; font-weight: 500; border: none;"><a href=""><span class="pe-2"><i class="far fa-bookmark"></i></span><span class="d-none d-sm-block">Course</span> </a></li>
+                    <li class="list-group-item text-center mx-auto d-block text-dark py-3" style="background-color:  #FAFFC1; font-weight: 500; border: none;"><a href=""><span class="pe-2"><i class="fas fa-graduation-cap"></i></span><span class="d-none d-sm-block" >Students</span> </a></li>
+                    <li class="list-group-item text-center mx-auto d-block text-dark py-3" style="background-color:  #FAFFC1; font-weight: 500; border: none;"><a href=""><span class="pe-2"><i class="fas fa-dollar-sign"></i></span><span class="d-none d-sm-block">Payment</span> </a></li>
+                    <li class="list-group-item text-center mx-auto d-block text-dark py-3" style="background-color:  #FAFFC1; font-weight: 500; border: none;"><a href=""><span class="pe-2"><i class="fas fa-file-invoice"></i></i></span><span class="d-none d-sm-block">Report</span> </a></li>
+                    <li class="list-group-item text-center mx-auto d-block text-dark py-3" style="background-color:  #FAFFC1; font-weight: 500;border: none;"><a href=""><span class="pe-2"><i class="fas fa-sliders-h"></i></i></span><span class="d-none d-sm-block"> Settings</span></a></li>
+                </ul>
+            </div>
+        
+            <div class="text-center text-dark mt-5" style=" bottom: 0;"><p style="color: black; "> Log out</p><i class="fas fa-sign-out-alt"></i></div>
         </div>
-    </div>
+            <!--body-->
 
+            <div class="col-10"style="border: 3px solid yellow;" >
 
+                <div class="row">
+                    <nav class="navbar navbar-light bg-white">
+                        <div class="container-fluid">
+                          <a href=""><i style="color: rgb(194, 194, 194);" class="far fa-play-circle"></i></a>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search" ></i></button>
+                            <a href=""><i class="far fa-bell text-end"></i></i></a>
+                          </form>
+                         
+                        </div>
+                        
+                      </nav>
+                </div>
 
+                <div class="row  gx-3 mt-3" style="height: 250px;">
+                    <!--col1-->
+                    <div class="col-sm-12 col-xl-3 col-lg-6 col-md-6  op " >
+                        <div class="p-5" style="  border-radius: 10px; background: #F0F9FF; "><div><i  style=" color: #74C1ED;"  class="fas fa-graduation-cap"></i></div><p> students</p> <div class="text-end nb">243</div> </div>
+                    </div>
 
+                    <!--col2-->
+                    <div class="col-sm-12 col-xl-3 col-lg-6 col-md-6  op " >
+                        <div class="p-5" style="border-radius: 10px; background: #FEF6FB; " ><div><i style="color: #EE95C5;" class="far fa-bookmark"></i></div> <p>course</p><div class="text-end nb">13</div> </div>
+                    </div>
+                    <!--col3-->
 
+                    <div class="col-sm-12 col-xl-3 col-lg-6 col-md-6  op " >
+                        <div class="p-5"  style="border-radius: 10px; background: #FEFBEC; "><div><i style="color: #00C1FE;" class="fas fa-dollar-sign"></i></div> <p>payments</p>  <div class="text-end nb">DHS 556,000</div> </div>
+                    </div>
+                    <!--col4-->
 
+                    <div class="col-sm-12 col-xl-3 col-lg-6 col-md-6  op " >
+                        <div class="p-5"  style="color:white; border-radius: 10px; background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%); "><div><i style="color: #FFFF; " class="far fa-user"></i></div> <p style="color: white;">Users</p> <div class="text-end nb " >3</div > </div>
+                    </div>
 
+                  
+                       
+                   
+                
+
+              </div>
+
+            
+        </div>
+         
+
+   
 
 
 
 
    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/08babc9809.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

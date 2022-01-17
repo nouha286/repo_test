@@ -1,9 +1,10 @@
 .sidebar
 {
-    width: 20%;
-    border: 4px solid red;
+   /* width: 15%;*/
+   
     background:  #FAFFC1;
     height: 960px;
+    position: relative;
 }
 .rounded-circle
 {
@@ -22,20 +23,44 @@ li
 {
     background-color:  #FAFFC1 ;
 }
-.sidebar footer 
-{
-    bottom: 0;
-    position:absolute;
-}
+
 body
 {
-    display: flex;
-    overflow: auto;
-    font-style: normal;
+  /* display: flex;*/
    
+    font-style: normal;
+    width: 100%;
 }
 a
 {
    text-decoration: none;
    color: black ;
 }
+.nb
+{
+    
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: black;
+}
+ p
+{
+ color:  #6C6C6C;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+
+}
+a:hover
+{
+ color: black;
+}
+header
+{
+    display: flex;
+}
+
+

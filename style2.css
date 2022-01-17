@@ -1,0 +1,13 @@
+body
+{
+    overflow-x: hidden;
+}
+a.list-group-item
+{
+    background: #FAFFC1;
+}
+a.list-group-item:hover
+{
+    background-color:#00C1FE;
+    color: black;
+}
