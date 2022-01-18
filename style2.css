@@ -10,4 +10,5 @@ a.list-group-item:hover
 {
     background-color:#00C1FE;
     color: black;
+    border-radius: 5px;
 }
